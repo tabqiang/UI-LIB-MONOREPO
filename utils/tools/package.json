@@ -1,25 +1,27 @@
 {
   "name": "@friendlycode/tools",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "type": "module",
   "types": "dist/types/index.d.ts",
-
-  "exports" : {
-     "require": "./dist/index.cjs",
-     "import": "./dist/index.js"
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.js"
   },
   "files": [
     "/dist",
     "LICENSE"
   ],
-  
-  "scripts" : {
-    "build" : "rollup -c"
+  "scripts": {
+    "build": "rollup -c"
   },
-  "keywords": ["utils", "testing", "tools"],
+  "keywords": [
+    "utils",
+    "testing",
+    "tools"
+  ],
   "author": "",
   "license": "ISC"
 }

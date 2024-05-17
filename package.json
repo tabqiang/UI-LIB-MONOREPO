@@ -28,5 +28,8 @@
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.2"
   }
 }
