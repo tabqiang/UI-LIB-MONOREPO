@@ -54,6 +54,12 @@ importers:
         specifier: workspace:^
         version: link:../../utils/tools
 
+  projects/project-vue:
+    dependencies:
+      '@friendlycode/tools':
+        specifier: workspace:^
+        version: link:../../utils/tools
+
   utils/tools: {}
 
 packages:
